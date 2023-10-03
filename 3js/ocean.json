@@ -1,0 +1,72 @@
+{
+	"metadata": {
+		"version": 4.6,
+		"type": "Object",
+		"generator": "Object3D.toJSON"
+	},
+	"geometries": [
+		{
+			"uuid": "c7dd5df3-89fb-4e13-9146-5689827d055b",
+			"type": "BufferGeometry",
+			"data": {
+				"attributes": {
+					"position": {
+						"itemSize": 3,
+						"type": "Float32Array",
+						"array": [1.1637569665908813,0.5568910241127014,1.0607359409332275,1.1637569665908813,0.5568910241127014,-1.116476058959961,-1.0254930257797241,0.5568910241127014,-1.116476058959961,1.1637569665908813,0.5568910241127014,1.0607359409332275,-1.0254930257797241,0.5568910241127014,-1.116476058959961,-1.0254930257797241,0.5568910241127014,1.0607359409332275],
+						"normalized": false
+					},
+					"normal": {
+						"itemSize": 3,
+						"type": "Float32Array",
+						"array": [0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0],
+						"normalized": false
+					},
+					"uv": {
+						"itemSize": 2,
+						"type": "Float32Array",
+						"array": [0.5832020044326782,0.4167979955673218,0.5832020044326782,0.5832020044326782,0.4167979955673218,0.5832020044326782,0.5832020044326782,0.4167979955673218,0.4167979955673218,0.5832020044326782,0.4167979955673218,0.4167979955673218],
+						"normalized": false
+					}
+				},
+				"boundingSphere": {
+					"center": [0.06913197040557861,0.5568910241127014,-0.0278700590133667],
+					"radius": 1.5437833090798068
+				}
+			}
+		}],
+	"materials": [
+		{
+			"uuid": "407b1672-082c-482d-8e1d-89d8ab8b1f20",
+			"type": "MeshPhongMaterial",
+			"name": "Procedural_Water_Surface",
+			"color": 16777215,
+			"emissive": 0,
+			"specular": 1118481,
+			"shininess": 30,
+			"reflectivity": 1,
+			"refractionRatio": 0.98,
+			"depthFunc": 3,
+			"depthTest": true,
+			"depthWrite": true,
+			"colorWrite": true,
+			"stencilWrite": false,
+			"stencilWriteMask": 255,
+			"stencilFunc": 519,
+			"stencilRef": 0,
+			"stencilFuncMask": 255,
+			"stencilFail": 7680,
+			"stencilZFail": 7680,
+			"stencilZPass": 7680
+		}],
+	"object": {
+		"uuid": "d3872911-b2b0-4768-95d9-9fb2300eb3c2",
+		"type": "Mesh",
+		"name": "Landscape_plane_Landscape_plane_Procedural_Water_Surface",
+		"layers": 1,
+		"matrix": [1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1],
+		"up": [0,1,0],
+		"geometry": "c7dd5df3-89fb-4e13-9146-5689827d055b",
+		"material": "407b1672-082c-482d-8e1d-89d8ab8b1f20"
+	}
+}
